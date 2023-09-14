@@ -25,6 +25,47 @@
           </a>
         </div>
 
+        <input type="checkbox" id="hamburger-checkbox" />
+
+        <ul id="mob-nav">
+          <div class="mob-nav-actions">
+            <div class="">
+              <a href="./index.html">
+                <img
+                  src="../../images/logo/Iconic Sneakers.png"
+                  width="120"
+                  alt="Iconic Sneakers"
+                  aria-label="Iconic Sneakers"
+                />
+              </a>
+            </div>
+
+            <label for="hamburger-checkbox" class="hamburger hamburger-close">
+              <img src="../../images/x.png" alt="" />
+            </label>
+          </div>
+
+          <li class="mob-brand">
+            <div class="mob-brand-label">
+              <p>Brands</p>
+              <label for="mob-brand-checkbox" class="mob-brand-toggle">
+                <img src="../../images/chevron-down.png" alt="" />
+              </label>
+            </div>
+
+            <input type="checkbox" id="mob-brand-checkbox" />
+
+            <ul class="mob-brand-links">
+              <li><a href="../../brand/nike.html">Nike</a></li>
+              <li><a href="../../brand/new-balance.html">New Balance</a></li>
+              <li><a href="../../brand/vans.html">Vans</a></li>
+              <li><a href="../../brand/adidas.html">Adidas</a></li>
+              <li><a href="../../brand/converse.html">Converse</a></li>
+            </ul>
+          </li>
+          <li><a href="./about/about.html">About</a></li>
+        </ul>
+
         <ul id="navlinks" class="flex">
           <li class="brand-dropdown-parent">
             Brand
@@ -39,7 +80,12 @@
           <li><a href="../../about/about.html">About</a></li>
         </ul>
       </div>
-      <a href="../../login/login.html" class="nav-login-btn"> LOGIN </a>
+      <div class="nav-actions">
+        <label for="hamburger-checkbox" class="hamburger">
+          <img src="../../images/menu.png" alt="" />
+        </label>
+        <a href="../../login/login.html" class="nav-login-btn"> LOGIN </a>
+      </div>
     </nav>
 
     <main>
